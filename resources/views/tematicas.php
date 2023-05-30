@@ -43,7 +43,67 @@
         </div>
       </nav>
     <h4>Estamos en tematicas</h4>
-    <h6>Hola</h6>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Seguridad y la IA</h5>
+                        <p class="card-text">Inteligencia Artificial aplicada a las investigaciones digitales en Amércia Latina.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="card mb-3" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Talento en Ciberseguridad</h5>
+                            <p class="card-text">Identificación y desarrollo del talento en el mundo de la ciberseguridad</p>
+                        </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="card mb-3" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Caso JWT</h5>
+                            <p class="card-text">Vulnerabilidades en JWT ... ¿y ahora quién podrá defendernos?</p>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Tecnologias de defensa</h5>
+                            <p class="card-text">Tecnologías de protección frente a Ransomware y malware avanzado</p>
+                        </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="card mb-3" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Protección de ataques</h5>
+                            <p class="card-text">Protección de ataques basados en Identidad con CrowdStrike</p>
+                        </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="card mb-3" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">SmartContracts</h5>
+                            <p class="card-text">Jumping level up (from) web2 (to) web3: Vulnerabilities & SCAMs on SmartContracts.</p>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>        

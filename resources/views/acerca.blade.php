@@ -13,7 +13,7 @@
     <h1>Congreso nacional de Ciberseguridad 2023</h1>
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Inscripciones</a>
+          <a class="navbar-brand" href="registro">Inscripciones</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -44,11 +44,62 @@
           </div>
         </div>
       </nav>
-      <h4>Estamos en Inicio</h4>
-      <div class= container>
-        <h5>Hola Saludos a todos</h5>
-        <img src="{{URL::asset('./resources/images/Ciberseguridad.jpg')}}"/>
+      <div class="container-fluid">
 
+        <img src="{{ asset('/assets/images/Ciberseguridad.jpg') }}" alt="Mi imagen" class="img-ciber">
+
+      </div>       
+      <div class="container">
+        <div class="row" >
+          <div class="col">
+            <h4>06 y 07 de Octubre</h4>
+            <h5>Conoce lo más actual</h5>
+            <p>
+            Descubre lo más actual en seguridad de la información con grandes profesionistas en el ámbito.
+            No te pierdas por igual todos los talleres que tenemos preparados para tí.
+            </p>
+
+          </div>
+          <div class="col">
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                  <div class="card-header">Ponencias</div>
+                  <div class="card-body text-primary">
+                    <p class="card-text">Conoce lo más actual de las expertas y expertos en seguridad</p>
+                  </div>
+            </div>
+            <div class="card border-warning mb-3" style="max-width: 18rem;">
+                  <div class="card-header">Foros</div>
+                  <div class="card-body text-secondary">
+                    <p class="card-text">Conoce los puntos de vista de los mejores expertos en el tema</p>
+                  </div>
+            </div>
+
+          </div>
+          <div class="col">
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+                  <div class="card-header">Talleres</div>
+                  <div class="card-body">
+                    <p class="card-text">Aprende con los talleres que tenemos preparados para tí.</p>
+                  </div>
+            </div>
+            <div class="card border-dark mb-3" style="max-width: 18rem;">
+                  <div class="card-header">Conferencias</div>
+                  <div class="card-body">
+                    <p class="card-text">Disfruta de todas las conferencias que aportaran grande conocimiento para tu profesión.</p>
+                  </div>
+            </div>
+
+
+          </div>
+
+
+          </div>
+
+
+          </div>
+        
+
+        </div>
 
       </div>
 
